@@ -66,6 +66,7 @@ To run these scripts you need to import the following libraries:
       11. UNUSUAL GAP LEN: if there was an IRREGULAR SOMA GAP,  gives you the length of that gap, if not, has “N/A”
   
   e. Log file
+  
     * This log file contains suspicious transcript data you should take a second look at. Each entry tells you the name of a suspicious cell and the reason why it was flagged
 
 
