@@ -1,8 +1,7 @@
-Germline-Soma Model
+# Germline-Soma Model
 Takes readmapped data from ciliate genomes and visualizes it, performs statistical analysis, and flags suspicious or otherwise noteworthy data. 
-
-1. Running the model
-
+***
+## 1. Running the model
 To run these scripts you need to import the following libraries:
 * matplotlib
 * pandas
@@ -12,8 +11,8 @@ To run these scripts you need to import the following libraries:
 
   a. Run this in a folder containing all 3 scripts (main.py, seqclass.py, makefig.py) & either a tsv or xls/xlsx spreadsheet of germline/soma data
   b. In terminal, cd into your folder and then call “python3 mainms.py <spreadsheet name>”
-
-2. Interpreting your results
+***
+## 2. Interpreting your results
   a. every transcript that meets the following criteria will have a png visualizing it
     * contained >2 segments
     * >80% mapped
