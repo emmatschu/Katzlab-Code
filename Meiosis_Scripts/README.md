@@ -3,8 +3,8 @@ Written by Caitlin Timmons
 ***
 ## Workflow overview 
 
-1. Collect protein sequences from the EggNog database for genes associated with meiosis/ploidy in a literature search
-2. Translate NCBI IDs into taxonomic names to make more usable
+1. **Collect protein sequences from the EggNog database for genes associated with meiosis/ploidy in a literature search**
+2. **Translate NCBI IDs into taxonomic names to make more usable**
 
 *Make sure the following is installed to use SeqIO and ete3 in the script*
 
