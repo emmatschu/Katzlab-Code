@@ -1,4 +1,4 @@
-## Germline-Soma Model
+Germline-Soma Model
 Takes readmapped data from ciliate genomes and visualizes it, performs statistical analysis, and flags suspicious or otherwise noteworthy data. 
 
 1. Running the model
