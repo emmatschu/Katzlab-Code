@@ -17,27 +17,27 @@ To run these scripts you need to import the following libraries:
 ## 2. Interpreting your results
 a. every transcript that meets the following criteria will have a png visualizing it
 * contained >2 segments
-* >80% mapped
-* >100 bp in length
-      - Every unmapped transcript, and the reason it did not map, will print to the terminal
+* 80%< mapped
+* 100< bp in length
+- Every unmapped transcript, and the reason it did not map, will print to the terminal
   
-  b. Each png should be named and titled according to the transcript and germline pairing. The image will contain 2 lines, one labeled "S:" (soma) and the other labeled "G:" (germline). These lines will be made up of offset arrows, which represent separate segments. 
+b. Each png should be named and titled according to the transcript and germline pairing. The image will contain 2 lines, one labeled "S:" (soma) and the other labeled "G:" (germline). These lines will be made up of offset arrows, which represent separate segments. 
   
-    * purple tinted arrows that point -> are read in a forward direction
-    * teal tinted arrows that point <- are read in the reverse direction
-    * if the same nuclei contains both puple and green arrows, the genome is scrambled
+* purple tinted arrows that point -> are read in a forward direction
+* teal tinted arrows that point <- are read in the reverse direction
+* if the same nuclei contains both puple and green arrows, the genome is scrambled
                                        
-  c. Other features marked in the images
-    * Pointer sequences, which are segments that overlap, are shown by orange lines
-    * Irregular soma gaps (>20 bp) are indicated by a yellow line between the segment arrows on the somatic nucleus
-    * IESs (any gap on the germline) are indicated by a red line between the segment arrows on the germline nuclei
+c. Other features marked in the images
+* Pointer sequences, which are segments that overlap, are shown by orange lines
+* Irregular soma gaps (>20 bp) are indicated by a yellow line between the segment arrows on the somatic nucleus
+* IESs (any gap on the germline) are indicated by a red line between the segment arrows on the germline nuclei
   
-  d. Spreadsheets (data summaries)
-    * Each data summary has 2 sheets:
-      1. “Transcripts data”, which contains data for whole transcripts
-      2. “Segments data”, contains data for each individual segment
-  
-    * “Transcripts data” contains the following information:
+d. Spreadsheets (data summaries)
+* Each data summary has 2 sheets:
+1. “Transcripts data”, which contains data for whole transcripts
+2. “Segments data”, contains data for each individual segment
+
+* “Transcripts data” contains the following information:
       1. TRANSCRIPT: name of the transcript
       2. GERMLINE: name of the germline
       3. TOTAL LENGTH: tells you the total length of the germline segments
@@ -51,7 +51,7 @@ a. every transcript that meets the following criteria will have a png visualizin
       11. SOMA SCRAMBLED: tells you if the soma was scrambled
       12. GERMLINE SCRAMBLED: : tells you if the germline was scrambled
   
-    * “Segments data” contains the following information:
+* “Segments data” contains the following information:
       1. TRANSCRIPT: name of the transcript
       2. GERMLINE: name of the germline
       3. TOTAL LENGTH: tells you the total length of the germline segment
@@ -64,9 +64,9 @@ a. every transcript that meets the following criteria will have a png visualizin
       10. G end: end coordinate for germline segment
       11. UNUSUAL GAP LEN: if there was an IRREGULAR SOMA GAP,  gives you the length of that gap, if not, has “N/A”
   
-  e. Log file
+e. Log file
   
-    * This log file contains suspicious transcript data you should take a second look at. Each entry tells you the name of a suspicious cell and the reason why it was flagged
+ * This log file contains suspicious transcript data you should take a second look at. Each entry tells you the name of a suspicious cell and the reason why it was flagged
 
 
 
