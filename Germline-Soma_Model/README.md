@@ -15,11 +15,10 @@ To run these scripts you need to import the following libraries:
   b. In terminal, cd into your folder and then call “python3 mainms.py <spreadsheet name>”
 ***
 ## 2. Interpreting your results
-  
-  a. every transcript that meets the following criteria will have a png visualizing it
-    * contained >2 segments
-    * >80% mapped
-    * >100 bp in length
+a. every transcript that meets the following criteria will have a png visualizing it
+* contained >2 segments
+* >80% mapped
+* >100 bp in length
       - Every unmapped transcript, and the reason it did not map, will print to the terminal
   
   b. Each png should be named and titled according to the transcript and germline pairing. The image will contain 2 lines, one labeled "S:" (soma) and the other labeled "G:" (germline). These lines will be made up of offset arrows, which represent separate segments. 
